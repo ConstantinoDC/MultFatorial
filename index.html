@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplicação</h1>
+        <label>Digite os número</label>
+        <div class="container-input">
+            <input type="number" id="num1" class="input-mult">
+            <input type="number" id="num2" class="input-mult">
+        </div>
+        <input type="button" class="botao" onclick="clickmult()" value="Calcular">
+        <p id="result-mult"></p>
+    </div>
+
+    <div class="container">
+        <h1>Fatorial</h1>
+        <input type="number" id="numf" class="fatorial" placeholder="Digite o número que você quer ver o fatorial">
+        <input type="button" class="botao" onclick="clickfat()" value="Calcular">
+        <p id="result-fatorial"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
